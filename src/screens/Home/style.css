@@ -1,0 +1,11 @@
+.home {
+    background-color: #040608;
+}
+
+.home-title {
+    font-size: 30px;
+    color: #FFE919;
+    font-weight: bold;
+    text-align: center;
+    margin: 70px 0 100px 0;
+}
