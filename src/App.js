@@ -1,9 +1,14 @@
-import './App.css';
+import React from 'react';
+import Rotas from './routes';
+import { BrowserRouter } from 'react-router-dom';
+import './mediaQuery.css';
 
-function App() {
+const App = () => {
   return (
     <div>
-    <h2>Olá</h2>
+      <BrowserRouter>
+        <Rotas />
+      </BrowserRouter>
     </div>
   );
 }
