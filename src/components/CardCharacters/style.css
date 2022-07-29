@@ -1,0 +1,22 @@
+.card-characters {
+    width: 160px;
+    height: 180px;
+    border: solid 1px #FFFF;
+    border-radius: 20px;
+    margin: 0 0 40px 20px;
+}
+
+.card-characters-image {
+    border-radius: 20px 20px 0 0;
+    width: 158px;
+    height: 74%;
+    object-fit: cover;
+}
+
+.card-characters-name {
+    font-size: 16px;
+    color: #FFE919;
+    text-align: center;
+    display: block;
+    margin: 10px 0 0 0;
+}

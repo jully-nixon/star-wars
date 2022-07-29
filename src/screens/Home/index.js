@@ -3,6 +3,7 @@ import './style.css';
 import Header from '../../components/Header';
 import Banner from '../Banner';
 import Footer from '../../components/Footer';
+import Characters from '../Characters';
 
 const Home = () => {
     const [color] = useState('#040608');
@@ -17,7 +18,7 @@ const Home = () => {
             <Banner />
 
             <h2 className='home-title'>Personagens Saga Star Wars</h2>
-
+            <Characters />
             <Footer />
         </>
     );

@@ -20,6 +20,11 @@ a {
     color: #FFFF !important;
 }
 
+a:hover {
+    color: #FFE919 !important;
+}
+
 .active {
     color: #FFE919 !important;
+    text-decoration: none;
 }
