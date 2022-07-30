@@ -1,0 +1,31 @@
+.modal-details-starships {
+    display: grid;
+}
+
+.modal-details-starships-title {
+    color: #FFE919;
+    font-size: 40px;
+    margin: 0 0 40px 0px;
+}
+
+b {
+    color: #FFE919;
+}
+
+label {
+    color: #FFFF;
+}
+
+.modal-body {
+    margin: 0 0 0 50px;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-content {
+    height: 400px;
+    max-height: 100%;
+    background-color: #48617e  !important;
+}

@@ -43,7 +43,11 @@ const Characters = () => {
         <div id='characters'>
             <ul>
                 {charactersData.map((character, id) => {
-                    return <li key={id}> <CardCharacters name={character.name} /></li>
+                    return <li key={id}>
+                        <CardCharacters
+                            name={character.name}
+                            starshipsList={character.starships} />
+                    </li>
                 })}
             </ul>
 
