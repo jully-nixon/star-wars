@@ -8,11 +8,11 @@ import { Link } from "react-scroll";
 const Header = () => {
     return (
         <>
-            <Navbar collapseOnSelect fixed='top' expand='sm' variant='dark' >
+            <Navbar collapseOnSelect fixed='top' variant='dark' >
                 <Container>
                     <div>
                         <Navbar.Collapse>
-                            <Nav >
+                            <Nav>
                                 <Link
                                     activeClass="active"
                                     spy={true}

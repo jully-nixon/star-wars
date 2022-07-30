@@ -3,6 +3,6 @@ ul,
 li {
     display: inline-table;
     text-align: center;
-    padding: 0px 4px 0px 4px;
+    padding: 0px 14px 0px 14px;
     list-style-type: none;
 }

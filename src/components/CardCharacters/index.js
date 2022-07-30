@@ -25,7 +25,7 @@ const CardCharacters = ({ name, starshipsList }) => {
                 {starshipsList.length
                     ?
                     starshipsList.map((starship, id) => {
-                        return <li key={id}>
+                        return <li id='card-characters-starship' key={id}>
                             <img
                                 className='card-characters-image-starship'
                                 alt='starship'

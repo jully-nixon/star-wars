@@ -3,7 +3,7 @@
     height: 240px;
     border: solid 1px #FFFF;
     border-radius: 20px;
-    margin: 0 0 40px 20px;
+    margin: 0 0 40px 0;
 }
 
 .card-characters-image {
@@ -26,8 +26,12 @@
 }
 
 .card-characters-starship-list {
-    margin: 10px 0px 0 0px;
-    padding: 0;
+    margin: 6px 0px 0 0px;
+    padding: 0px 4px 0px 4px;
+}
+
+li#card-characters-starship {
+    padding: 0 4px 0 4px;
 }
 
 .card-characters-empty-image {
