@@ -23,8 +23,12 @@ npm start
 
 ## Tecnologias Utilizadas
 
-- ReactJS
+- [ReactJS](https://pt-br.reactjs.org/)
 - HTML
 - CSS
 - Javascript
 - API [SWAPI](https://swapi.dev/)
+
+## Link para acesso em nuvem
+
+[Vercel](https://star-wars-jully-nixon.vercel.app)
