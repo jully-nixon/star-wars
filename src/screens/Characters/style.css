@@ -1,10 +1,8 @@
-ul, li {
+.characters-list,
+ul,
+li {
     display: inline-table;
     text-align: center;
-    margin: 0 6px 0px 0px;
-    padding: 0;
-}
-
-li {
+    padding: 0px 4px 0px 4px;
     list-style-type: none;
 }

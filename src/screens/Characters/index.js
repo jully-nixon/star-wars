@@ -12,7 +12,7 @@ const Characters = () => {
 
     let baseURL = 'https://swapi.dev/api/people/?page=1';
 
-    const getCharactersData = async () => {
+    const getCharactersData = async (baseURL) => {
         await axios.get(baseURL)
             .then((response) => {
                 setCharactersData(response.data.results);
@@ -27,21 +27,21 @@ const Characters = () => {
 
     const nextPage = () => {
         baseURL = nextUrl;
-        getCharactersData();
+        getCharactersData(baseURL);
     }
 
     const previousPage = () => {
         baseURL = previoustUrl;
-        getCharactersData();
+        getCharactersData(baseURL);
     }
 
     useEffect(() => {
-        getCharactersData();
-    }, []);
+        getCharactersData(baseURL);
+    }, [baseURL]);
 
     return (
         <div id='characters'>
-            <ul>
+            <ul className='characters-list'>
                 {charactersData.map((character, id) => {
                     return <li key={id}>
                         <CardCharacters
