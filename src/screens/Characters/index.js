@@ -45,6 +45,7 @@ const Characters = () => {
 
     return (
         <div id='characters'>
+
             <div className='characters-spinner'>
                 <PacmanLoader
                     size='60px'
@@ -52,6 +53,7 @@ const Characters = () => {
                     loading={loading}
                 />
             </div>
+
             <ul className='characters-list'>
                 {charactersData.map((character, id) => {
                     return <li key={id}>

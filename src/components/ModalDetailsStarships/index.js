@@ -21,6 +21,7 @@ const ModalDetailsStarships = (props) => {
     useEffect(() => {
         getStarshipsData();
     });
+
     return (
         <Modal
             {...props}

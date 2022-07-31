@@ -7,7 +7,8 @@ const PaginationItens = (
         previousPage,
         currentPage,
         previoustUrl,
-        nextUrl }) => {
+        nextUrl
+    }) => {
     return (
         <div className='pagination'>
             <button onClick={previousPage} disabled={!previoustUrl}>Anterior</button>

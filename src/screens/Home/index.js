@@ -16,7 +16,6 @@ const Home = () => {
         <>
             <Header />
             <Banner />
-
             <h2 className='home-title'>Personagens Saga Star Wars</h2>
             <Characters />
             <Footer />
