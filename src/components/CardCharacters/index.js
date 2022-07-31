@@ -22,6 +22,7 @@ const CardCharacters = ({ name, starshipsList }) => {
             <label className='card-characters-name'>{name}</label>
 
             <ul className='card-characters-starship-list'>
+                <label className='card-characters-starship'>Starships:</label>
                 {starshipsList.length
                     ?
                     starshipsList.map((starship, id) => {
@@ -36,7 +37,7 @@ const CardCharacters = ({ name, starshipsList }) => {
                     })
                     :
                     <div>
-                        <label className='card-characters-empty-message'>(Starships Vazio)</label>
+                        <label className='card-characters-empty-message'>(Vazio)</label>
                         <img
                             className='card-characters-empty-image'
                             alt='starshipsEmpty'
